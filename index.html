@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お弁当ーObentou</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body id="up" style="background-color: #1F1F29;">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="image/logobento.png" alt="">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: 1px solid white;">
+                <span class="navbar-toggler-icon" style="color: white;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 60 60"
+                            fill="none">
+                            <path d="M50 17.5H10" stroke="white" stroke-width="3.75" stroke-linecap="round" />
+                            <path d="M50 30H10" stroke="white" stroke-width="3.75" stroke-linecap="round" />
+                            <path d="M50 42.5H10" stroke="white" stroke-width="3.75" stroke-linecap="round" />
+                        </svg>
+                </span>
+              </button>
+              <div class="collapse navbar-collapse w-100" id="navbarNav" style="justify-content: end; transition: all 0.3s ease;">
+                <ul class="navbar-nav text-center py-lg-0 py-4">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimoni">Testimoni</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <section class="hero-container mt-5">
+            <div class="hero container d-flex flex-column justify-content-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                <div class="tagline mb-4">
+                    <img src="image/Group 11.svg" alt="">
+                </div>
+                <div class="direct" onclick="location.href='#about'">
+                    <a href="">About Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about py-5 mt-3 w-100 overflow-hidden"  id="about">
+            <div class="container">
+            <h1>About Us</h1>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="aboutpic " data-aos="fade-right" data-aos-duration="1000">
+                        <img src="image/IMG_2281.jpg" alt="" >
+                    </div>
+                </div>
+                <div class="about__content col-12 col-md-8 mt-4 mt-md-0" data-aos="fade-left" data-aos-duration="1000">
+                    <h1>Bento Ala <span>Jepang</span></h1>
+                    <p>日本のお弁当は美味しいです。キャラ弁とかもありますが、子供の食欲をそそる可愛くて美味しいお弁当です。結婚式や パーティーなどの食事は和風にしてあります。存分にあじわってくださいませ。
+                        日本のお弁当は美味しいです。キャラ弁とかもありますが、子供の食欲をそそる可愛くて美味しいお弁当です
+                    </p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="services container py-5" id="services">
+            <h1>Our Services</h1>
+            <div class="service__menu row g-3">
+                <div class="col-12 col-md-4" data-aos="flip-right" data-aos-duration="1000">
+                    <div class="service__menu__card">
+                        <img src="image/bento.webp" alt="">
+                        <div class="overlay">
+                            <h4>Bento</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4" data-aos="flip-right" data-aos-duration="1300">
+                    <div class="service__menu__card">
+                        <img src="image/wee.jpg" alt="">
+                        <div class="overlay">
+                            <h4>Wedding</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4" data-aos="flip-right" data-aos-duration="1600">
+                    <div class="service__menu__card">
+                        <img src="image/cathering.jpg" alt="">
+                        <div class="overlay">
+                            <h4>Catering</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        <section class="testimoni container py-5 mb-5" id="testimoni">
+            <h1>Testimoni</h1>
+            <div class="row g-3">
+                <div class="col-12 col-md-4">
+                    <div class="testi__item" data-aos="flip-right" data-aos-duration="1000">
+                        <div class="testi__image">
+                            <img src="image/085_S_86.jpg" alt="">
+                        </div>
+                        <h2>Haruka</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore optio placeat nostrum architecto unde nisi quam sit dolores exercitationem deleniti </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="testi__item" data-aos="flip-right" data-aos-duration="1000">
+                        <div class="testi__image">
+                            <img src="image/085_S_86.jpg" alt="">
+                        </div>
+                        <h2>Haruka</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore optio placeat nostrum architecto unde nisi quam sit dolores exercitationem deleniti </p>
+                    </div>
+                </div><div class="col-12 col-md-4">
+                    <div class="testi__item" data-aos="flip-right" data-aos-duration="1000">
+                        <div class="testi__image">
+                            <img src="image/085_S_86.jpg" alt="">
+                        </div>
+                        <h2>Haruka</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore optio placeat nostrum architecto unde nisi quam sit dolores exercitationem deleniti </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer w-100" id="contact">
+                <div class="row g-4 w-100">
+                    <div class="col-12 col-md-4 d-flex justify-content-center d-md-block">
+                        <img src="image/logobento.png" alt="" width="200">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3>Contact Us</h3>
+                        <div class="contact__item d-flex gap-2 align-items-center">
+                            <svg fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="30px"><path d="M 5.5 7 C 3.019531 7 1 9.019531 1 11.5 L 1 11.925781 L 25 29 L 49 11.925781 L 49 11.5 C 49 9.019531 46.980469 7 44.5 7 Z M 6.351563 9 L 43.644531 9 L 25 22 Z M 1 14.027344 L 1 38.5 C 1 40.980469 3.019531 43 5.5 43 L 44.5 43 C 46.980469 43 49 40.980469 49 38.5 L 49 14.027344 L 43 18.296875 L 43 41 L 7 41 L 7 18.296875 Z"/></svg>
+                            <p>obentou@gmail.com</p>
+                        </div>
+                        <div class="contact__item d-flex gap-2 align-items-center mt-3">
+                            <svg fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="30px" height="30px"><path d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z"/></svg>
+                            <p>089618240715</p>
+                        </div>
+                        <div class="pt-4">
+                        <h3>Find Us</h3>
+                            <a href="https://instagram.com"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="30px" height="30px">    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"/></svg></a>
+                            <a href="https://facebook.com"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"/></svg></a>
+                            <a href="https://twitter.com"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3>Our Location</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.9651068998249!2d112.5971927674591!3d-7.9532218999999955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7882680a80a2bb%3A0x8ca45c03c6913e2d!2s2HWW%2BPXC%2C%20Karangbesuki%2C%20Kec.%20Sukun%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065149!5e0!3m2!1sid!2sid!4v1706510304480!5m2!1sid!2sid" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+        </footer> 
+        
+        <div class="whatsapp__cta">
+            <a href="https://wa.me/6289618240715" target="_blank"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="35px" height="35px"><path d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z"/></svg></a>
+        </div>
+
+        <div class="diricon">
+            <a href="#up"><img src="image/up icon.svg" alt=""></a>
+        </div>   
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
